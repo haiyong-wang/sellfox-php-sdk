@@ -12,4 +12,6 @@ interface FinancialInterface
     public function getDeferredAmountList(array $params, array $header = []);
     public function getDeferredOrderList(array $params, array $header = []);
     public function getRenderMonthEndDelayList(array $params, array $header = []);
+    public function getSettlementDetailV2(array $params, array $header = []);
+    public function getShippingSettlementV2(array $params, array $header = []);
 }

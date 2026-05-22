@@ -15,6 +15,8 @@ use Exewen\Sellfox\Contract\FinancialInterface;
  * @method static array getDeferredAmountList(array $params, array $header = [])
  * @method static array getDeferredOrderList(array $params, array $header = [])
  * @method static array getRenderMonthEndDelayList(array $params, array $header = [])
+ * @method static array getSettlementDetailV2(array $params, array $header = [])
+ * @method static array getShippingSettlementV2(array $params, array $header = [])
  */
 class FinancialFacade extends Facade
 {
